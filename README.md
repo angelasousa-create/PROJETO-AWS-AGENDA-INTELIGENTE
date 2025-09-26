@@ -101,6 +101,7 @@ Sinta-se livre para reutilizar a arquitetura em seus próprios projetos SaaS.
 
 ```bash
 .
+├── LICENSE
 ├── Projeto AWS - Agenda inteligente - SAAS.drawio  # Diagrama em 3D da arquitetura
 ├── README.md 
 
