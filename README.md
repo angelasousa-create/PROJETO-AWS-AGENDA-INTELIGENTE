@@ -73,25 +73,6 @@ IAM
 CloudTrail
 
 --- 
-💰 Custos Estimados (MVP - Micro SaaS)
-Valores aproximados em USD/mês, considerando uso moderado e instâncias pequenas na região us-east-1:
-
-| Serviço              | Configuração Básica                | Custo Estimado |
-| -------------------- | ---------------------------------- | -------------- |
-| **EC2**              | 1x t3.micro (24/7)                 | ~ $9           |
-| **RDS**              | db.t3.micro (Single AZ)            | ~ $15          |
-| **S3**               | 10 GB + 100k requisições           | ~ $1           |
-| **Lambda**           | 1M execuções/mês (free tier cobre) | ~$0            |
-| **ALB**              | 1 ALB ativo                        | ~ $18          |
-| **Route 53**         | 1 domínio + 1 hosted zone          | ~ $1,5         |
-| **CloudWatch**       | Logs + métricas básicos            | ~ $2           |
-| **IAM / CloudTrail** | Incluídos no free tier             | $0             |
-
-🔹 Total aproximado: ~ $45/mês
-
-(varia conforme tráfego e uso real, podendo ser otimizado para < $30 com free tier nos primeiros 12 meses).
-
---- 
 📌 Licença
 
 Este projeto é apenas um estudo de caso educacional e não possui fins comerciais diretos.
